@@ -404,6 +404,6 @@ his.$__.validationError = new ValidationError(this);
 
 ## update operation
 
-git remote add origin https://github.com/BhaskarKulshrestha/Introduction-to-MongoDB-and-Mongoose.git
-git branch -M main
-git push -u origin main
+- git remote add origin https://github.com/BhaskarKulshrestha/Introduction-to-MongoDB-and-Mongoose.git
+- git branch -M main
+- git push -u origin main
