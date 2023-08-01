@@ -1,3 +1,33 @@
+- [To check the version of mongoDB](#to-check-the-version-of-mongodb)
+- [Establish a connection (First step only required once)](#establish-a-connection-first-step-only-required-once)
+- [To go into the mongoDB shell](#to-go-into-the-mongodb-shell)
+- [--------------  CREATE OPERATION--------------](#----------------create-operation--------------)
+- [show dbs](#show-dbs)
+- [use DATABASE\_NAME](#use-database_name)
+- [db](#db)
+- [db.dropDatabase()](#dbdropdatabase)
+- [what is a collection in mongodb ?](#what-is-a-collection-in-mongodb-)
+- [Collection Commands](#collection-commands)
+- [------------READING OPERATION -------------](#------------reading-operation--------------)
+- [Read operation](#read-operation)
+- [db.collection.find(query, projection, options)](#dbcollectionfindquery-projection-options)
+- [Returns:](#returns)
+- [--------------UPDATE OPERATION -----------------](#--------------update-operation------------------)
+- [------------- DELETE OPERATION ----------------](#--------------delete-operation-----------------)
+- [\*\* To show the collection in a well format use pretty()\*\*](#-to-show-the-collection-in-a-well-format-use-pretty)
+- [How to connect MongoDB application to the Node.js application:](#how-to-connect-mongodb-application-to-the-nodejs-application)
+- [--------using MongoDB native driver-----------](#--------using-mongodb-native-driver-----------)
+- [-------- using ODM =\> MONGOOSE ---------](#---------using-odm--mongoose----------)
+- [Making a document](#making-a-document)
+- [Inserting a data:](#inserting-a-data)
+- [Mongoose save function : DOCUMENT\_NAME.save()](#mongoose-save-function--document_namesave)
+- [Reading the Data:](#reading-the-data)
+    - [if we want to find all the names of the fruits in the collection named as fruits then:-](#if-we-want-to-find-all-the-names-of-the-fruits-in-the-collection-named-as-fruits-then-)
+- [Validation in mongoose:](#validation-in-mongoose)
+- [update operation](#update-operation)
+
+
+
 <h1>Getting started with mongoDB</h1>
 
 
